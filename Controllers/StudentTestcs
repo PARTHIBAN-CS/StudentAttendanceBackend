@@ -1,0 +1,55 @@
+// using System;
+// using Microsoft.AspNetCore.Mvc;
+// using System.Collections.Generic;
+// using WebApi.Entities;
+// using System.Linq;
+// using System.Data;
+// using System.Text;
+// //using Microsoft.VisualStudio.TestTools.UnitTesting;
+
+// using RestSharp;
+
+//  namespace StudentTest
+
+//  {
+
+// // [ApiController]
+
+
+// public class StudentTest
+
+// {
+
+// //[Test]
+
+// public void GetWeatherInfo()
+
+// {
+
+// //Creating Client connection
+
+// RestClient restClient = new RestClient("https://localhost:5001/api/students/");
+
+// //Creating request to get data from server
+
+// RestRequest restRequest = new RestRequest("London",Method.GET);
+
+// // Executing request to server and checking server response.
+
+// IRestResponse restResponse = restClient.ExecuteAsync(restRequest);
+
+// // Extracting output data from received response
+
+// string response = restResponse.Content;
+
+// // Verifiying reponse contains text “London”
+
+// if(!response.contains("London")
+
+// Assert.Fail("Whether information is not displayed");
+
+// }
+
+// }
+
+// }
